@@ -9,6 +9,5 @@ dependencies = ["base"]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-
 [tool.uv.sources]
 base = {git = "https://github.com/NickCrews/uv-bug-6041.git/", branch = "main", subdirectory="base"}

@@ -3,11 +3,11 @@ name = "a"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.11"
-dependencies = ["ibis-framework"]
+dependencies = ["base"]
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.uv.sources]
-ibis-framework = {git = "https://github.com/ibis-project/ibis.git", branch = "main"}
+base = {git = "https://github.com/NickCrews/uv-bug-6041.git/", branch = "main", subdirectory="base"}

@@ -6,10 +6,10 @@ requires-python = ">=3.11"
 dependencies = [
     "a",
     "b",
-    "ibis-framework"
+    "base"
 ]
 
 [tool.uv.sources]
-a = {path = "../a"}
-b = {path = "../b"}
-ibis-framework = {git = "https://github.com/ibis-project/ibis.git", branch = "main"}
+a = {git = "https://github.com/NickCrews/uv-bug-6041.git/", branch = "main", subdirectory="a"}
+b = {git = "https://github.com/NickCrews/uv-bug-6041.git/", branch = "main", subdirectory="b"}
+base = {git = "https://github.com/NickCrews/uv-bug-6041.git/", branch = "main", subdirectory="base"}
