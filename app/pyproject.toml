@@ -1,0 +1,15 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "a",
+    "b",
+    "ibis-framework"
+]
+
+[tool.uv.sources]
+a = {path = "../a"}
+b = {path = "../b"}
+ibis-framework = {git = "https://github.com/ibis-project/ibis.git", branch = "main"}
