@@ -1,0 +1,1 @@
+Trying to make a repro for https://github.com/astral-sh/uv/issues/6041
