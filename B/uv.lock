@@ -1,0 +1,18 @@
+version = 1
+requires-python = ">=3.11"
+
+[[package]]
+name = "b"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "base" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "base", git = "https://github.com/NickCrews/uv-bug-6041.git/?subdirectory=base&branch=main" }]
+
+[[package]]
+name = "base"
+version = "0.1.0"
+source = { git = "https://github.com/NickCrews/uv-bug-6041.git/?subdirectory=base&branch=main#27bd4700f8c5bfa7fc864d7fe4417628b073511a" }
